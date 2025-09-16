@@ -9,10 +9,11 @@ print(values)
 for number in values:
     print(values[0])
     print(values[6])
-"""
 
-x="this is a thing"
+count=0
+x=input("input a sentence: ")
 y=x.split( )
-z=y[0]
-print(y)
-print(z)
+for word in y:
+    count+=1
+print(f"You have {count} words in you sentence")
+"""
