@@ -43,8 +43,9 @@ else:
 """
 
 x=input("input a number: ")
-for number in x:
-    if x  2:
+x=int(x)
+for value in x:
+    if value % 2 == int():
         print (f"Your number, {x} is even")
-    elif not x  2:
+    else:
         print(f"you number, {x} is odd")

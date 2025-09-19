@@ -51,3 +51,21 @@ def faactors(x,y):
     if x % y == 0
         print ("factor")
 factors(25,5)
+#while loops runs indefinitely
+x=5
+i=0
+while i<5:
+    print(i)
+    i +=1
+
+x = input("_")
+while x == "":
+    item = input ("")
+
+#defining
+x=65
+def test():
+    x=50
+    print(x)
+test()
+print(x)
