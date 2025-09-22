@@ -40,12 +40,30 @@ elif temp==68:
 else:
     print('cold')
 
-"""
+
 
 x=input("input a number: ")
-x=int(x)
-for value in x:
-    if value % 2 == int():
-        print (f"Your number, {x} is even")
-    else:
-        print(f"you number, {x} is odd")
+value=int(x)
+if value % 2 == int():
+    print (f"Your number, {x} is even")
+else:
+    print(f"you number, {x} is odd")
+#yeaaaasssasasasasasssssssssssszaaaaaaaaaaaas
+
+
+
+x= float(input("enter your damn bill: "))
+print(x)
+y= input("select a tip of either 0 percent, 15 percent, 20 percent, or 25 percent: ")
+a=x+x*0.15
+b=x+x*0.20
+c=x+x*0.25
+if y == "0":
+    print(f"total:{x}")
+if y == "15":
+    print(f"total: {a}")
+if y == "20":
+    print(f"total: {b}")
+if y =="25":
+    print(f"total: {c}")
+    """

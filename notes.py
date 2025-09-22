@@ -3,7 +3,7 @@
 x=True
 y=False
 # == <--evaluate
-if x==true: 
+if x==True: 
     print ("x is 10")
 # if you dont use elif it would check both making bugs
 elif x>10:
