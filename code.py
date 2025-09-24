@@ -50,7 +50,7 @@ else:
     print(f"you number, {x} is odd")
 #yeaaaasssasasasasasssssssssssszaaaaaaaaaaaas
 
-
+"""
 
 x= float(input("enter your bill: "))
 print(x)
@@ -77,4 +77,4 @@ x= int(input("Give me a number: "))
 
 print(f"the factors of {x} are: ")
 
-
+"""
