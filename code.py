@@ -52,7 +52,7 @@ else:
 
 
 
-x= float(input("enter your damn bill: "))
+x= float(input("enter your bill: "))
 print(x)
 y= input("select a tip of either 0 percent, 15 percent, 20 percent, or 25 percent: ")
 a=x+x*0.15
@@ -66,4 +66,15 @@ if y == "20":
     print(f"total: {b}")
 if y =="25":
     print(f"total: {c}")
-    """
+
+"""
+
+x= int(input("Give me a number: "))
+
+
+
+
+
+print(f"the factors of {x} are: ")
+
+
