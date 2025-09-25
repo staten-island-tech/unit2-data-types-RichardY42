@@ -67,3 +67,12 @@ if y == "20":
 if y =="25":
     print(f"total: {c}")
     """
+
+
+
+x=int(input("give me a number i will find the factors for it: "))
+y=1
+while y<=x:
+    if x%y==int():
+        print(f"factor:{y}")
+    y+=1
