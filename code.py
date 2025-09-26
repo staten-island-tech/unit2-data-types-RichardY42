@@ -50,7 +50,7 @@ else:
     print(f"you number, {x} is odd")
 #yeaaaasssasasasasasssssssssssszaaaaaaaaaaaas
 
-"""
+
 
 x= float(input("enter your bill: "))
 print(x)
@@ -66,3 +66,26 @@ if y == "20":
     print(f"total: {b}")
 if y =="25":
     print(f"total: {c}")
+
+
+
+x=int(input("give me a number i will find the factors for it: "))
+y=1
+while y<=x:
+    if x%y==int():
+        print(f"factor:{y}")
+    y+=1
+
+"""
+
+no1= int(input("give me a number: "))
+no2= int(input("give me another number: "))
+x=1
+while 
+    if no1>no2:
+        for i in range(no1):
+            x+=1
+    elif no2>no1:
+        for i in range(no2)
+            x+=1
+if no1 % x
