@@ -50,9 +50,9 @@ else:
     print(f"you number, {x} is odd")
 #yeaaaasssasasasasasssssssssssszaaaaaaaaaaaas
 
+"""
 
-
-x= float(input("enter your damn bill: "))
+x= float(input("enter your bill: "))
 print(x)
 y= input("select a tip of either 0 percent, 15 percent, 20 percent, or 25 percent: ")
 a=x+x*0.15
@@ -66,13 +66,3 @@ if y == "20":
     print(f"total: {b}")
 if y =="25":
     print(f"total: {c}")
-    """
-
-
-
-x=int(input("give me a number i will find the factors for it: "))
-y=1
-while y<=x:
-    if x%y==int():
-        print(f"factor:{y}")
-    y+=1
