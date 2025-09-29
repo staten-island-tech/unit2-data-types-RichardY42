@@ -71,21 +71,31 @@ if y =="25":
 
 x=int(input("give me a number i will find the factors for it: "))
 y=1
+factors=[]
 while y<=x:
     if x%y==int():
-        print(f"factor:{y}")
+        factors += [y]
     y+=1
-
+print(f"factors:{factors}")
 """
-
+print("give me 2 numbers and I will find the greatest common factor")
 no1= int(input("give me a number: "))
 no2= int(input("give me another number: "))
 x=1
-while 
-    if no1>no2:
-        for i in range(no1):
-            x+=1
-    elif no2>no1:
-        for i in range(no2)
-            x+=1
-if no1 % x
+
+if no2>no1:
+    while x<=no1:
+        if no1%x==0 and no2%x==0:
+           gcf=x
+        x+=1
+    print(f"the greatest common factors of {no1} and {no2} is: {gcf}")
+if no2<no1:
+    while x<=no2:
+        if no1%x==0 and no2%x==0:
+           gcf=x
+        x+=1
+    print(f"the greatest common factors of {no1} and {no2} is: {gcf}")
+
+
+
+
